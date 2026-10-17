@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 56">
+  <defs>
+    <clipPath id="frente"><rect x="12" y="4" width="30" height="42" rx="4"/></clipPath>
+  </defs>
+  <!-- carta de trás -->
+  <rect x="5" y="9" width="30" height="42" rx="4" fill="#e0533a" transform="rotate(-10 20 30)"/>
+  <!-- carta da frente -->
+  <g transform="rotate(4 27 25)">
+    <rect x="12" y="4" width="30" height="42" rx="4" fill="#f5f5f5"/>
+    <rect x="12" y="4" width="30" height="6" fill="#f0c040" clip-path="url(#frente)"/>
+    <!-- pokébola -->
+    <circle cx="27" cy="23" r="8" fill="#e3350d"/>
+    <path d="M19 23a8 8 0 0 0 16 0z" fill="#fff"/>
+    <circle cx="27" cy="23" r="8" fill="none" stroke="#111" stroke-width="1.6"/>
+    <line x1="19" y1="23" x2="35" y2="23" stroke="#111" stroke-width="1.6"/>
+    <circle cx="27" cy="23" r="2.8" fill="#fff" stroke="#111" stroke-width="1.4"/>
+    <!-- linhas de texto -->
+    <rect x="17" y="35" width="12" height="2.4" rx="1.2" fill="#aaa"/>
+    <rect x="17" y="39.5" width="18" height="2.4" rx="1.2" fill="#aaa"/>
+  </g>
+</svg>
